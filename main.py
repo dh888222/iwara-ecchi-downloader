@@ -72,9 +72,10 @@ try:
 	last_page = int(soup.find(class_ = 'pager-last last').find('a')['href'].split('=')[-1])
 except AttributeError:
 	last_page = 1
-if video_input == 'all':
+if (video_input == 'all'):
 	page = last_page
 	video_num = 10000000
+	video_input = '1000000000'
 else:
 	video_num = int(video_input) / 40
 	page = math.ceil(video_num)
@@ -108,5 +109,9 @@ for x in range(page):
 			have_dl_num += 1
 		except:
 			print('\nNo video in this page.')
+	
+
+
+
 
 input('\n下载完成，成功下载%d个视频，回车键退出' % have_dl_num)
