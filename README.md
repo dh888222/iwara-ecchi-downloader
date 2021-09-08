@@ -2,7 +2,7 @@
 Downloader video in iwara(r18) by keywords.
 First of all, you should install python3 and pip3.
 The program need two libraries: bs4, requests.You can installed by yourself.
-If you works on windows, you can use ==run.bat== to install the libraries which the program needed.And then if your command of running python in your PC is ==py== it will run the program or you can run by yourself in antway you want.
+If you works on windows, you can use **run.bat** to install the libraries which the program needed.And then if your command of running python in your PC is **py** it will run the program or you can run by yourself in antway you want.
 
 # i站R18区视频下载器
 可以通过关键字批量下载i站视频
