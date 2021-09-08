@@ -108,9 +108,5 @@ for x in range(page):
 			have_dl_num += 1
 		except:
 			print('\nNo video in this page.')
-	
-
-
-
 
 input('\n下载完成，成功下载%d个视频，回车键退出' % have_dl_num)
